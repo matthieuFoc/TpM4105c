@@ -1,1 +1,30 @@
-#t1{background-color: blue;}#t2{background-color: white;}#t3{background-color: red;}
+*{
+	font-size: 16px;
+}
+h1{
+	font-size: 25px;
+}
+th{
+	background-color: grey;
+	border: 1px solid black;
+	margin-right: 2px;
+}
+td{
+	border:1px solid black;
+	margin-right: 2px;
+	padding: auto;
+}
+
+
+
+
+
+
+#t1{background-color: blue;}
+#t2{background-color: white;}
+#t3{background-color: red;}
+img{width: 500px;}
+.img{background-image: url(../img/iut.jpg);background-size: contain;width: 400px;height: 200px;display: block;margin: auto;}
+@media screen and (max-width: 480px){
+img{width: 100%;}
+}
