@@ -174,11 +174,22 @@ input{
 
 @media only screen    and (min-width : 480px)    and (max-width : 1400px) {
 
+.menu ul li{
+	float: none;
+}
+.menu ul{
+	padding: 0;
+	text-align:center;
+}
 p{
 	font-size: 12px;
 }
 #in{
 	width: 100%;
+	padding: 0;
+}
+.text{
+	padding: 2%;
 }
 .fond{
 	width: 100%;
@@ -191,7 +202,6 @@ header{
 }
 .menu{
 	float: none;
-	margin-left: 25%;
 	margin-bottom: 10px;
 }
 .photo div{
@@ -215,6 +225,10 @@ header{
 
 #in{
 	width: 100%;
+	padding: 0;
+}
+.text{
+	padding: 2%;
 }
 p{
 	font-size: 16px;
